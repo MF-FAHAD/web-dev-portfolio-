@@ -3,9 +3,9 @@
 .header-img{
     background-image: url(../images/developer.png),url(../images/header_bg.png);
     background-repeat: no-repeat;
-    width: 1600px;
-    height: 800px;
-    /* background-size: 75px; */
+    /* width: 1600px;
+    height: 800px; */
+
     background-position: top left, bottom right;
 
 }
@@ -75,4 +75,37 @@ nav ul{
 .for-img{
     width: 580px;
     height: 650px;
+}
+.font-color{
+    color: #757575;
+}
+
+/* for about section */
+.bg-color{
+    background-color: #FFF8F3;
+}
+.about{
+    margin: 0 auto;
+    border-radius: 20px;
+    max-width: 940px;
+    text-align: center;
+    margin-top: 120px;
+    padding: 200px 300px;
+}
+.item-description{
+    font-weight: bold;
+    margin-top: 0px;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+/* for what i do section */
+.what-i-do{
+    max-width: 940px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 200px 300px;
+
+
 }
