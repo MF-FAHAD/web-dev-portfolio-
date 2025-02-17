@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.header-img{
+    background-image: url(../images/developer.png),url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 800px;
+    /* background-size: 75px; */
+    background-position: top left, bottom right;
+
+}
+
+nav{
+    display: flex;
+    font-family: Open Sans;  
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 85px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    margin-left: 50px;
+}
+.title-color{
+    color: #FD6E0A;
+}
+.dark-2{
+    color: #474747;
+}
+nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    background-color: #FD6E0A;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 19px;
+    border: none;
+    cursor: pointer;
+    /* pinter means, when we move the cursor on any button its shows hand pointer */
+}
+
+/* For Banner */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 146px;
+}
+.banner-contain{
+    margin-top: 100px;
+}
+.ban-title1{
+    font-weight: 100;
+    font-size: 50px;
+    height: 10px;
+    
+}
+.ban-title2{
+    font-weight: bold;
+    font-size: 80px;
+    height: 50px;
+}
+.for-img{
+    width: 580px;
+    height: 650px;
+}
