@@ -133,6 +133,21 @@ nav ul{
     gap: 70px;
     margin: 0px auto;  
 }
-/* .btn-margin{
-    margin: 0px auto;  
-} */
+
+/* for footer section  */
+.footer{
+    display: flex;
+    padding: 130px 130px;
+    gap: 30px   ;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+    margin-bottom: 24px;
+    border: none;
+}
